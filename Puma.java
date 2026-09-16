@@ -11,6 +11,9 @@ class Puma extends Felin {
 		this.couleur = c;
 	}
 
+	public String getCouleur() { return this.couleur; }
+	public void setCouleur(String c) { this.couleur = c;}
+
 	@Override
 	public String toString() {
 		return super.toString() +

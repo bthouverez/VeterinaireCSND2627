@@ -18,6 +18,11 @@ class Animal {
 		System.out.println("Du bruit...");
 	}
 
+	public int getTaille() { return this.taille;}
+	public void setTaille(int i ) { this.taille = t;}
+	public double getPoids() { return this.poids;}
+	public void setPoids(double p ) { this.poids = p;}
+	
 	@Override
 	public String toString() {
 		return "Animal qui pèse " + poids + "kg et mesure " + taille + "cm";

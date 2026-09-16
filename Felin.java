@@ -11,6 +11,9 @@ class Felin extends Animal {
 		this.taux_piquant = tp;
 	}
 
+	public double getTauxPiquant() {return this.taux_piquant;}
+	public void setTauxPiquand(double tp) {this.taux_piquant = tp;}
+
 	@Override
 	public void faireDuBruit() {
 		System.out.println("Miaouuuuu");

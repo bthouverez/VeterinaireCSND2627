@@ -1,11 +1,14 @@
 class PoissonChat extends Animal {
-	private int lg_moustache;
+	private int longueur_moustache;
 
 	public PoissonChat() {
 		super();
-		this.lg_moustache = 3;
+		this.longueur_moustache = 3;
 	}
 
+
+	public int getLongueurMoustache() { return this.longueur_moustache; }
+	public void setLongueurMoustache(int lm) { this.longueur_moustache = lm;}
 
 	public void faireDuBruit() {
 		System.out.println("Gloups bwoup");
