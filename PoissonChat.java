@@ -4,6 +4,10 @@ class PoissonChat extends Animal {
 	public PoissonChat() {
 		super();
 		this.lg_moustache = 3;
-		System.out.println("Constructeur PoissonChat par défaut");
+	}
+
+
+	public void faireDuBruit() {
+		System.out.println("Gloups bwoup");
 	}
 }

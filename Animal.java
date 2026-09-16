@@ -18,6 +18,7 @@ class Animal {
 		System.out.println("Du bruit...");
 	}
 
+	@Override
 	public String toString() {
 		return "Animal qui pèse " + poids + "kg et mesure " + taille + "cm";
 	}
